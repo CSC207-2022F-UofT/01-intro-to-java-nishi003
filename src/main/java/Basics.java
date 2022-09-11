@@ -147,7 +147,6 @@ public class Basics {
          */
         StringBuilder ret = new StringBuilder();
 
-        StringBuilder ret = new StringBuilder();
         String[] words = to_split.split(" ");
         for (String word:words){
             ret.append(word.charAt(0));
